@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ShopAmaze</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./images/logo.jpeg" type="image/x-icon">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!--Navbar-->
+<nav>
+  <div class="navbar-conatiner">
+    <div class="navbar-title">
+      <h1>ShopAmaze</h1>
+    </div>
+    <div class="navbar-search">
+      <input type="text" placeholder="Search" id="search-items" disabled><i class="fa-solid fa-magnifying-glass"></i>
+    </div>
+    <div class="navbar-links">
+      <p class="navbar-link"><a href="index.html">Home</a></p>
+      <p class="navbar-link"><a href="shop.html">Shop</a></p>
+      <p class="navbar-link"><a href="blog.html">Blog</a></p>
+      <p class="navbar-link"><a href="about.html">About</a></p>
+      <p class="navbar-link"><a href="contact.html">Contact</a></p>
+      <p class="navbar-link"><a href="welcome.html">Sign in/Sign up</a></p>
+      <p class="navbar-link">
+        <p class="cart-count">0</p>
+          <a id="cart-open"><i class="fa-solid fa-cart-shopping"></i></a>
+        </p>
+      </div>
+      <div class="vertical-navbar-buy">
+        <p class="navbar-link">
+        <p class="cart-vertical-count">0</p>
+          <a id="cart-open-vertical"><i class="fa-solid fa-cart-shopping"></i></a>
+        </p>
+    </div>
+    <div class="vertical-navbar-hamburger" id="hamburger-menu">
+      <i class="fa-solid fa-bars"></i>
+    </div>
+  </div>
+  <div class="vertical-navbar-container">
+    <div class="vertical-navbar-links">
+      <i class="fa-solid fa-xmark" id="exit-button"></i>
+      <p class="vertical-navbar-link"><a href="index.html">Home</a></p>
+      <p class="vertical-navbar-link"><a href="shop.html">Shop</a></p>
+      <p class="vertical-navbar-link"><a href="blog.html">Blog</a></p>
+      <p class="vertical-navbar-link"><a href="about.html">About</a></p>
+      <p class="vertical-navbar-link"><a href="contact.html">Contacts</a></p>
+      <p class="vertical-navbar-link"><a href="welcome.html">Sign in/Sign up</a></p>
+    </div>
+  </div>
+</nav>
+<!--CART-->
+<div class="cart-main-container">
+  <i class="fa-solid fa-xmark" id="cart-exit"></i>
+  <h1>Cart</h1>
+  
+  <h3 class="total-price">Total Amount:  </h3>
+  <button>Place Order</button>
+</div>
+    <!--Section-1-->
+    <div class="section1-container">
+      <div class="section1-text">
+        <h4>Trade-in-offer</h4>
+        <h2>Super value deals</h2>
+        <h1>On all products</h1>
+        <h6>Save more with coupons & upto 70% off!</h6>
+        <button class="section1-button"><a href="shop.html">Shop Now</a></button>
+      </div>
+    </div>
+    <!--Section-2-->
+    <div class="section2-contianer">
+      <div class="container-box">
+        <i class="fa-solid fa-truck-fast"></i>
+        <div class="section2-container-box-text">
+          <p>Free Shipping</p>
+        </div>
+      </div>
+      <div class="container-box">
+        <i class="fa-solid fa-clock-rotate-left"></i>
+        <div class="section2-container-box-text">
+          <p>Time Saving</p>
+        </div>
+      </div>
+      <div class="container-box">
+        <i class="fa-solid fa-sack-dollar"></i>
+        <div class="section2-container-box-text">
+          <p>Save Money</p>
+        </div>
+      </div>
+      <div class="container-box">
+        <i class="fa-solid fa-rectangle-ad"></i>
+        <div class="section2-container-box-text">
+          <p>Promotions</p>
+        </div>
+      </div>
+      <div class="container-box">
+        <i class="fa-regular fa-face-smile"></i>
+        <div class="section2-container-box-text">
+          <p>Happy Sell</p>
+        </div>
+      </div>
+      <div class="container-box">
+        <i class="fa-solid fa-headset"></i>
+        <div class="section2-container-box-text">
+          <p>F24/7 Support</p>
+        </div>
+      </div>
+    </div>
+    <!--Section-3-->
+    <div class="products-search">
+    <div class="section3-main-container">
+      <div class="section3-text">
+        <p class="section3-text-title">Featured Products</p>
+        <p class="section3-text-subtitle">
+          Summer Collection New Modern Design
+        </p>
+      </div>
+      <div class="section3-image-gallery">
+        <div class="section3-image">
+            <a href="product-descriptionpage.html">
+            <img src="./images/shirt1.png" alt="" width="250px" height="250px" class="pdt-image" ></a>
+            <div class="img-description">
+                <p>adidas</p>
+                <h3 class="product-title">Cartoon Astronut T-Shirts</h3>
+                <label class="sections-star-icon"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></label>
+                <h4 class="product-price">$78</h4>
+                <button class="section3-shop-button"><i class="fa-solid fa-cart-shopping"></i></button>
+            </div>
+        </div>
+        <div class="section3-image">
+            <a href="product-descriptionpage.html">
+            <img src="./images/shirt2.png" alt="" width="250px" height="250px" class="pdt-image"></a>
+            <div class="img-description">
+                <p>adidas</p>
+                <h3 class="product-title">Beige T-shirt</h3>
+                <label class="sections-star-icon"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></label>
+                <h4 class="product-price">$78</h4>
+                <button class="section3-shop-button"><i class="fa-solid fa-cart-shopping"></i></button>
+            </div>
+        </div>
+        <div class="section3-image">
+            <a href="product-descriptionpage.html">
+            <img src="./images/shirt3.png" alt="" width="250px" height="250px" class="pdt-image"></a>
+            <div class="img-description">
+                <p>adidas</p>
+                <h3 class="product-title">Yellow T-shirt</h3>
+                <label class="sections-star-icon"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></label>
+                <h4 class="product-price">$78</h4>
+                <button class="section3-shop-button"><i class="fa-solid fa-cart-shopping"></i></button>
+            </div>
+        </div>
+        <div class="section3-image">
+            <a href="product-descriptionpage.html">
+            <img src="./images/shirt4.png" alt="" width="250px" height="250px" class="pdt-image"></a>
+            <div class="img-description">
+                <p>adidas</p>
+                <h3 class="product-title">Hoodie(Jackect)</h3>
+                <label class="sections-star-icon"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></label>
+                <h4 class="product-price">$78</h4>
+                <button class="section3-shop-button"><i class="fa-solid fa-cart-shopping"></i></button>
+            </div>
+        </div>
+    </div>
+    <div class="section3-image-gallery">
+      <div class="section3-image">
+        <a href="product-descriptionpage.html">
+        <img src="./images/w-slipper-1.jpg" alt="" width="250px" height="250px" class="pdt-image" ></a>
+        <div class="img-description">
+            <p>bata</p>
+            <h3 class="product-title">Women Slipper</h3>
+            <label class="sections-star-icon"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></label>
+            <h4 class="product-price">$28</h4>
+            <button class="section3-shop-button"><i class="fa-solid fa-cart-shopping"></i></button>
+        </div>
+    </div>
+    <div class="section3-image">
+        <a href="product-descriptionpage.html">
+        <img src="./images/shoe-1.jpg" alt="" width="250px" height="250px" class="pdt-image"></a>
+        <div class="img-description">
+            <p>bata</p>
+            <h3 class="product-title">Fancy Shoe</h3>
+            <label class="sections-star-icon"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></label>
+            <h4 class="product-price">$45</h4>
+            <button class="section3-shop-button"><i class="fa-solid fa-cart-shopping"></i></button>
+        </div>
+    </div>
+    <div class="section3-image">
+        <a href="product-descriptionpage.html">
+        <img src="./images/saree-6.jpg" alt="" width="250px" height="250px" class="pdt-image"></a>
+        <div class="img-description">
+            <p>aurelia</p>
+            <h3 class="product-title">Yellow Saree</h3>
+            <label class="sections-star-icon"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></label>
+            <h4 class="product-price">$95</h4>
+            <button class="section3-shop-button"><i class="fa-solid fa-cart-shopping"></i></button>
+        </div>
+    </div>
+    <div class="section3-image">
+        <a href="product-descriptionpage.html">
+        <img src="./images/saree-7.jpg" alt="" width="250px" height="250px" class="pdt-image"></a>
+        <div class="img-description">
+            <p>gaurang</p>
+            <h3 class="product-title">Orange Saree</h3>
+            <label class="sections-star-icon"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></label>
+            <h4 class="product-price">$78</h4>
+            <button class="section3-shop-button"><i class="fa-solid fa-cart-shopping"></i></button>
+        </div>
+    </div>
+  </div>
+    </div>
+  </div>
+    <!--Section-4-->
+    <div class="section4-container">
+      <h5>Repair Services</h5>
+      <h1>
+        Up to <span style="color: red">70% Off </span>- All t-shirts &
+        Accessories
+      </h1>
+      <button><a href="shop.html" style="text-decoration: none; color:black;">Explore More</a></button>
+    </div>
+    <!--Section-5-->
+    <div class="section3-main-container">
+      <div class="section3-text">
+        <p class="section3-text-title">New Arrivals</p>
+        <p class="section3-text-subtitle">
+          Summer Collection New Modern Design
+        </p>
+      </div>
+      <div class="products-search">
+      <div class="section3-image-gallery">
+        <div class="section3-image">
+          <a href="product-descriptionpage.html">
+          <img src="./images/jean-1.jpg" alt="" width="250px" height="250px" class="pdt-image" ></a>
+          <div class="img-description">
+              <p>otto</p>
+              <h3 class="product-title">Blue Jean</h3>
+              <label class="sections-star-icon"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></label>
+              <h4 class="product-price">$122</h4>
+              <button class="section3-shop-button"><i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+      </div>
+      <div class="section3-image">
+          <a href="product-descriptionpage.html">
+          <img src="./images/kurti-4.jpg" alt="" width="250px" height="250px" class="pdt-image"></a>
+          <div class="img-description">
+              <p>aurelia</p>
+              <h3 class="product-title">Orange Kurti</h3>
+              <label class="sections-star-icon"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></label>
+              <h4 class="product-price">$59</h4>
+              <button class="section3-shop-button"><i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+      </div>
+      <div class="section3-image">
+          <a href="product-descriptionpage.html">
+          <img src="./images/shirt3.png" alt="" width="250px" height="250px" class="pdt-image"></a>
+          <div class="img-description">
+              <p>adidas</p>
+              <h3 class="product-title">Yellow T-shirt</h3>
+              <label class="sections-star-icon"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></label>
+              <h4 class="product-price">$78</h4>
+              <button class="section3-shop-button"><i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+      </div>
+      <div class="section3-image">
+          <a href="product-descriptionpage.html">
+          <img src="./images/saree-5.jpg" alt="" width="250px" height="250px" class="pdt-image"></a>
+          <div class="img-description">
+              <p>gaurang</p>
+              <h3 class="product-title">Golden Saree</h3>
+              <label class="sections-star-icon"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></label>
+              <h4 class="product-price">$173</h4>
+              <button class="section3-shop-button"><i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+      </div>
+    </div>
+    <div class="section3-image-gallery">
+      <div class="section3-image">
+          <a href="product-descriptionpage.html">
+          <img src="./images/shirt1.png" alt="" width="250px" height="250px" class="pdt-image" ></a>
+          <div class="img-description">
+              <p>adidas</p>
+              <h3 class="product-title">Cartoon Astronut T-Shirts</h3>
+              <label class="sections-star-icon"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></label>
+              <h4 class="product-price">$78</h4>
+              <button class="section3-shop-button"><i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+      </div>
+      <div class="section3-image">
+          <a href="product-descriptionpage.html">
+          <img src="./images/shirt2.png" alt="" width="250px" height="250px" class="pdt-image"></a>
+          <div class="img-description">
+              <p>adidas</p>
+              <h3 class="product-title">Beige T-shirt</h3>
+              <label class="sections-star-icon"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></label>
+              <h4 class="product-price">$78</h4>
+              <button class="section3-shop-button"><i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+      </div>
+      <div class="section3-image">
+          <a href="product-descriptionpage.html">
+          <img src="./images/shirt3.png" alt="" width="250px" height="250px" class="pdt-image"></a>
+          <div class="img-description">
+              <p>adidas</p>
+              <h3 class="product-title">Yellow T-shirt</h3>
+              <label class="sections-star-icon"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></label>
+              <h4 class="product-price">$78</h4>
+              <button class="section3-shop-button"><i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+      </div>
+      <div class="section3-image">
+          <a href="product-descriptionpage.html">
+          <img src="./images/shirt4.png" alt="" width="250px" height="250px" class="pdt-image"></a>
+          <div class="img-description">
+              <p>adidas</p>
+              <h3 class="product-title">Hoodie(Jackect)</h3>
+              <label class="sections-star-icon"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></label>
+              <h4 class="product-price">$78</h4>
+              <button class="section3-shop-button"><i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+      </div>
+  </div>
+    </div>
+    </div>
+    <!--Section-6-->
+    <div class="section6-main-container">
+      <div class="section6-container1">
+        <h3>Crazy Deals</h3>
+        <h2>Buy 1 Get 1 Free</h2>
+        <h5>The best classic dress is on ShopAmaze</h5>
+        <button>Learn More</button>
+      </div>
+      <div class="section6-container2">
+        <h3>Crazy Deals</h3>
+        <h2>Buy 1 Get 1 Free</h2>
+        <h5>The best classic dress is on ShopAmaze</h5>
+        <button>Learn More</button>
+      </div>
+    </div>
+    <!--Section-7-->
+    <div class="section7-container">
+      <div class="section7-image-descrption1">
+        <h2>SEASONAL SALE</h2>
+        <h3>Winter Celebration - 50% Off</h3>
+      </div>
+      <div class="section7-image-descrption2">
+        <h2>SEASONAL SALE</h2>
+        <h3>Winter Celebration - 50% Off</h3>
+      </div>
+      <div class="section7-image-descrption3">
+        <h2>SEASONAL SALE</h2>
+        <h3>Winter Celebration - 50% Off</h3>
+      </div>
+    </div>
+    <!--News-Letter-->
+    <div class="news-letter-container">
+      <div class="new-letter-message">
+        <h2>Sign Up For Newsletters</h2>
+        <h4>
+          Get email updates about our latest shop and
+          <span style="color: rgb(183, 183, 3)">special offers.</span>
+        </h4>
+      </div>
+      <div class="news-letter-input">
+        <input type="text" placeholder="Your email address" />
+        <button>Sign Up</button>
+      </div>
+    </div>
+    <!--Footer-->
+    <div class="footer-container">
+      <div class="contact-box">
+        <h1>ShopAmaze</h1>
+        <h5 class="footer-heading1">Contact</h5>
+        <h5 style="font-size: 0.8em">
+          ADDRESS:
+          <span style="font-weight: 500; color: rgb(154, 150, 150)"
+            >50,North Wellington Road,San Fransisco</span
+          >
+        </h5>
+        <h5 style="font-size: 0.8em; margin-top: 5px">
+          PHONE:
+          <span style="font-weight: 500; color: rgb(154, 150, 150)"
+            >0482-567893</span
+          >
+        </h5>
+        <h5 style="font-size: 0.8em; margin-top: 5px; margin-bottom: 10px">
+          EMAIL:
+          <span style="font-weight: 500; color: rgb(154, 150, 150)"
+            >shopamaze@gmail.com</span
+          >
+        </h5>
+        <h5 class="footer-heading1">Follow Us</h5>
+        <div class="footer-icons">
+          <i class="fa-brands fa-square-instagram"></i
+          ><i class="fa-brands fa-facebook"></i
+          ><i class="fa-brands fa-twitter"></i
+          ><i class="fa-brands fa-pinterest"></i
+          ><i class="fa-brands fa-youtube"></i>
+        </div>
+      </div>
+      <div class="footer-about">
+        <h5 class="footer-heading2">About</h5>
+        <h5 style="font-weight: 500; margin-top: 10px">
+          <a href="" style="text-decoration: none; color: rgb(154, 150, 150)"
+            >About Us</a
+          >
+        </h5>
+        <h5 style="font-weight: 500; margin-top: 5px">
+          <a href="" style="text-decoration: none; color: rgb(154, 150, 150)"
+            >Delivery Information</a
+          >
+        </h5>
+        <h5 style="font-weight: 500; margin-top: 5px">
+          <a href="" style="text-decoration: none; color: rgb(154, 150, 150)"
+            >Privacy Policy</a
+          >
+        </h5>
+        <h5 style="font-weight: 500; margin-top: 5px">
+          <a href="" style="text-decoration: none; color: rgb(154, 150, 150)"
+            >Terms And Conditions</a
+          >
+        </h5>
+        <h5 style="font-weight: 500; margin-top: 5px">
+          <a href="" style="text-decoration: none; color: rgb(154, 150, 150)"
+            >Contact Us</a
+          >
+        </h5>
+      </div>
+      <div class="footer-myaccount">
+        <h5 class="footer-heading3">My Account</h5>
+        <h5 style="font-weight: 500; margin-top: 10px">
+          <a href="" style="text-decoration: none; color: rgb(154, 150, 150)"
+            >Sign In</a
+          >
+        </h5>
+        <h5 style="font-weight: 500; margin-top: 5px">
+          <a href="" style="text-decoration: none; color: rgb(154, 150, 150)"
+            >View Cart</a
+          >
+        </h5>
+        <h5 style="font-weight: 500; margin-top: 5px">
+          <a href="" style="text-decoration: none; color: rgb(154, 150, 150)"
+            >My Wish List</a
+          >
+        </h5>
+        <h5 style="font-weight: 500; margin-top: 5px">
+          <a href="" style="text-decoration: none; color: rgb(154, 150, 150)"
+            >Track My Order</a
+          >
+        </h5>
+        <h5 style="font-weight: 500; margin-top: 5px">
+          <a href="" style="text-decoration: none; color: rgb(154, 150, 150)"
+            >Help</a
+          >
+        </h5>
+      </div>
+      <div class="install-app">
+        <h5 class="footer-heading4">Install App</h5>
+        <h5
+          style="
+            font-weight: 500;
+            color: rgb(154, 150, 150);
+            margin-top: 10px;
+            margin-bottom: 15px;
+          "
+        >
+          From App Store Or Google Play
+        </h5>
+        <div class="install-button">
+          <a href="/" tabindex="0"
+            ><img
+              class="bn46"
+              src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+              alt="bn45"
+          /></a>
+          <a href="/" tabindex="0"
+            ><img
+              class="bn45"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/2560px-Google_Play_Store_badge_EN.svg.png"
+              alt="bn45"
+          /></a>
+        </div>
+        <h5
+          style="
+            font-weight: 500;
+            color: rgb(154, 150, 150);
+            margin-top: 10px;
+            margin-bottom: 15px;
+          "
+        >
+          Secured Payment Gateways
+        </h5>
+        <div class="payment-gateways-icon">
+          <i class="fa-brands fa-cc-visa"></i>
+          <i class="fa-brands fa-cc-mastercard"></i>
+          <i class="fa-brands fa-google-pay"></i>
+        </div>
+      </div>
+    </div>
+    <!--Copyright-->
+    <div class="copyrights">
+      <p>&copy; 2024.ranjith E-commerce Project</p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
